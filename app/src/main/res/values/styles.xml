@@ -1,0 +1,270 @@
+<resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!--Setting Theme List-->
+    <style name="settingTheme" parent="@android:style/Theme.Light.NoTitleBar">
+
+    </style>
+
+    <!--theme 1-->
+    <style name="MyTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme1_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme1_top_bg</item>
+        <item name="android:colorBackground">@color/theme1_main_bg</item>
+        <item name="android:colorButtonNormal">@color/theme1_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme1_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme1_accent</item>
+        <item name="android:navigationBarColor">@color/theme1_navbar_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme1_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme1_head_bg</item>
+        <item name="alertDialogBackground">@color/theme1_white</item>
+        <item name="myButton_startColor">@color/theme1_button_bg</item>
+        <item name="myButton_endColor">@color/theme1_button_bg_dark</item>
+        <item name="myButton_border">@color/theme1_button_border</item>
+        <item name="myButton_border_dark">@color/theme1_button_border</item>
+        <item name="textColor_light">@color/theme1_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--theme 2-->
+    <style name="MySecondTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme2_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme2_top_bg</item>
+        <item name="android:colorBackground">@color/theme2_main_bg</item>
+        <item name="android:colorButtonNormal">@color/theme2_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme2_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme2_accent</item>
+        <item name="android:navigationBarColor">@color/theme2_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme2_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme2_head_bg</item>
+        <item name="alertDialogBackground">@color/theme2_white</item>
+        <item name="myButton_startColor">@color/theme2_button_bg</item>
+        <item name="myButton_endColor">@color/theme2_button_bg_dark</item>
+        <item name="myButton_border">@color/theme2_button_border</item>
+        <item name="myButton_border_dark">@color/theme2_grey</item>
+        <item name="textColor_light">@color/theme2_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--theme 3-->
+    <style name="MyThirdTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme3_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme3_top_bg</item>
+        <item name="android:colorBackground">@color/theme3_main_bg</item>
+        <item name="android:colorButtonNormal">@color/theme3_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme3_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme3_accent</item>
+        <item name="android:navigationBarColor">@color/theme3_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme3_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme3_head_bg</item>
+        <item name="alertDialogBackground">@color/theme3_white</item>
+        <item name="myButton_startColor">@color/theme3_button_bg</item>
+        <item name="myButton_endColor">@color/theme3_button_bg_dark</item>
+        <item name="myButton_border">@color/theme3_button_border</item>
+        <item name="myButton_border_dark">@color/theme3_grey</item>
+        <item name="textColor_light">@color/theme3_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--theme 4-->
+    <style name="MyFourthTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme4_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme4_top_bg</item>
+        <item name="android:colorBackground">@color/theme4_main_bg</item>
+        <item name="android:colorButtonNormal">@color/theme4_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme4_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme4_accent</item>
+        <item name="android:navigationBarColor">@color/theme4_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme4_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme4_head_bg</item>
+        <item name="alertDialogBackground">@color/theme4_white</item>
+        <item name="myButton_startColor">@color/theme4_button_bg</item>
+        <item name="myButton_endColor">@color/theme4_button_bg_dark</item>
+        <item name="myButton_border">@color/theme4_button_border</item>
+        <item name="myButton_border_dark">@color/theme4_grey</item>
+        <item name="textColor_light">@color/theme4_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--theme night-->
+    <style name="MyNightTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/night_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/night_top_bg</item>
+        <item name="android:windowBackground">@color/night_main_bg</item>
+        <item name="android:colorButtonNormal">@color/night_button_bg</item>
+        <item name="android:colorControlHighlight">@color/night_button_bg_dark</item>
+        <item name="android:colorAccent">@color/night_accent</item>
+        <item name="android:navigationBarColor">@color/night_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/night_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/night_head_bg</item>
+        <item name="alertDialogBackground">@color/night_white</item>
+        <item name="myButton_startColor">@color/night_button_bg</item>
+        <item name="myButton_endColor">@color/night_button_bg_dark</item>
+        <item name="myButton_border">@color/night_button_border</item>
+        <item name="myButton_border_dark">@color/night_grey</item>
+        <item name="textColor_light">@color/night_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_darkLight</item>
+    </style>
+
+    <!--home theme 1-->
+    <style name="HMyTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme1_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme1_top_bg</item>
+        <item name="android:colorBackground">@color/theme1_top_bg</item>
+        <item name="android:colorButtonNormal">@color/theme1_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme1_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme1_accent</item>
+        <item name="android:navigationBarColor">@color/theme1_navbar_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme1_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme1_head_bg</item>
+        <item name="alertDialogBackground">@color/theme1_white</item>
+        <item name="myButton_startColor">@color/theme1_button_bg</item>
+        <item name="myButton_endColor">@color/theme1_button_bg_dark</item>
+        <item name="myButton_border">@color/theme1_button_border</item>
+        <item name="myButton_border_dark">@color/theme1_button_border</item>
+        <item name="textColor_light">@color/theme1_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--home theme 2-->
+    <style name="HMySecondTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme2_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme2_top_bg</item>
+        <item name="android:colorBackground">@color/theme2_top_bg</item>
+        <item name="android:colorButtonNormal">@color/theme2_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme2_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme2_accent</item>
+        <item name="android:navigationBarColor">@color/theme2_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme2_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme2_head_bg</item>
+        <item name="alertDialogBackground">@color/theme2_white</item>
+        <item name="myButton_startColor">@color/theme2_button_bg</item>
+        <item name="myButton_endColor">@color/theme2_button_bg_dark</item>
+        <item name="myButton_border">@color/theme2_button_border</item>
+        <item name="myButton_border_dark">@color/theme2_grey</item>
+        <item name="textColor_light">@color/theme2_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--home theme 3-->
+    <style name="HMyThirdTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme3_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme3_top_bg</item>
+        <item name="android:colorBackground">@color/theme3_top_bg</item>
+        <item name="android:colorButtonNormal">@color/theme3_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme3_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme3_accent</item>
+        <item name="android:navigationBarColor">@color/theme3_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme3_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme3_head_bg</item>
+        <item name="alertDialogBackground">@color/theme3_white</item>
+        <item name="myButton_startColor">@color/theme3_button_bg</item>
+        <item name="myButton_endColor">@color/theme3_button_bg_dark</item>
+        <item name="myButton_border">@color/theme3_button_border</item>
+        <item name="myButton_border_dark">@color/theme3_grey</item>
+        <item name="textColor_light">@color/theme3_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--home theme 4-->
+    <style name="HMyFourthTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/theme4_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/theme4_top_bg</item>
+        <item name="android:colorBackground">@color/theme4_main_bg</item>
+        <item name="android:colorButtonNormal">@color/theme4_button_bg</item>
+        <item name="android:colorControlHighlight">@color/theme4_button_bg_dark</item>
+        <item name="android:colorAccent">@color/theme4_accent</item>
+        <item name="android:navigationBarColor">@color/theme4_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/theme4_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/theme4_head_bg</item>
+        <item name="alertDialogBackground">@color/theme4_white</item>
+        <item name="myButton_startColor">@color/theme4_button_bg</item>
+        <item name="myButton_endColor">@color/theme4_button_bg_dark</item>
+        <item name="myButton_border">@color/theme4_button_border</item>
+        <item name="myButton_border_dark">@color/theme4_grey</item>
+        <item name="textColor_light">@color/theme4_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_lightDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!--home theme night-->
+    <style name="HMyNightTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/night_head_bg</item>
+        <item name="android:colorPrimaryDark">@color/night_top_bg</item>
+        <item name="android:windowBackground">@color/night_main_bg</item>
+        <item name="android:colorButtonNormal">@color/night_button_bg</item>
+        <item name="android:colorControlHighlight">@color/night_button_bg_dark</item>
+        <item name="android:colorAccent">@color/night_accent</item>
+        <item name="android:navigationBarColor">@color/night_top_bg</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/night_grey</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="headBackground">@color/night_head_bg</item>
+        <item name="alertDialogBackground">@color/night_white</item>
+        <item name="myButton_startColor">@color/night_button_bg</item>
+        <item name="myButton_endColor">@color/night_button_bg_dark</item>
+        <item name="myButton_border">@color/night_button_border</item>
+        <item name="myButton_border_dark">@color/night_grey</item>
+        <item name="textColor_light">@color/night_textColor_btn</item>
+        <item name="textColor_dark">@color/textColor_dark</item>
+        <item name="textColor_lightDark">@color/textColor_darkLight</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">#0288D1</item>
+    </style>
+    <style name="mAlertDialog">
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

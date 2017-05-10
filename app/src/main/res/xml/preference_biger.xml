@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    //用户信息设置
+    <PreferenceCategory
+        android:key="@string/preference_pers_info"
+        android:title="@string/pref_title_userInfo">
+        <EditTextPreference
+            android:key="@string/preference_user_name"
+            android:title="@string/pref_title_userName"
+            android:summary="@string/pref_sum_userName"
+            android:defaultValue="@string/pref_deVel_userName"
+            android:layout="@layout/menu_medium_font_size"/>
+        <EditTextPreference
+            android:key="@string/preference_line_num"
+            android:title="@string/pref_title_gridDensity"
+            android:summary="@string/pref_sum_gridDensity"
+            android:defaultValue="10"
+            android:layout="@layout/menu_medium_font_size"/>
+    </PreferenceCategory>
+
+    //无障碍化设置
+    <PreferenceCategory
+        android:key="@string/preference_usability_setting"
+        android:title="@string/pref_title_Accessibility">
+        <ListPreference
+            android:key="@string/preference_theme"
+            android:title="@string/pref_title_theme"
+            android:summary="@string/pref_sum_theme"
+            android:defaultValue="1"
+            android:entries="@array/menu_theme"
+            android:entryValues="@array/menu_theme_value"
+            android:layout="@layout/menu_small_font_size"/>
+        <CheckBoxPreference
+            android:key="@string/preference_night_mode"
+            android:title="@string/pref_title_nightMode"
+            android:summaryOff="@string/pref_sum_nightModeOff"
+            android:summaryOn="@string/pref_sum_nightModeOn"
+            android:defaultValue="@string/pref_deVel_nightMode"
+            android:layout="@layout/menu_medium_font_size"/>
+        <com.example.Wuziqi.FontSizeListPreference
+            android:key="@string/preference_font_size"
+            android:title="@string/pref_title_textSize"
+            android:summary="@string/pref_sum_textSize"
+            android:defaultValue="1"
+            android:entries="@array/menu_font_size"
+            android:entryValues="@array/menu_font_size_value"
+            android:layout="@layout/menu_medium_font_size"/>
+        <ListPreference
+            android:key="@string/preference_bg"
+            android:title="@string/pref_title_boardStyle"
+            android:summary="@string/pref_sum_boardStyle"
+            android:defaultValue="1"
+            android:entries="@array/panel_bg_color"
+            android:entryValues="@array/panel_bg_color_value"
+            android:layout="@layout/menu_medium_font_size"/>
+
+        <Preference
+            android:key="@string/preference_font_size_sample"
+            android:title="@string/pref_title_fontSizeSample"
+            android:summary="@string/pref_sum_fontSizeSample"
+            android:layout="@layout/menu_medium_font_size">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.Wuziqi"
+                android:targetClass="com.example.Wuziqi.FontSizeSample" />
+        </Preference>
+        <Preference
+            android:key="@string/preference_clear_cusfile"
+            android:title="@string/pref_title_clearcache"
+            android:summary="@string/pref_sum_clearcache"
+            android:layout="@layout/menu_medium_font_size">
+
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string-array name="menu_theme">
+        <item>主题 1</item>
+        <item>主题 2</item>
+        <item>主题 3</item>
+        <item>主题 4</item>
+    </string-array>
+    <string-array name="menu_theme_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="menu_font_size">
+        <item>标准 (22sp)</item>
+        <item>大 (24sp)</item>
+        <item>超大 (30sp)</item>
+    </string-array>
+    <string-array name="menu_font_size_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="panel_bg_color">
+        <item>样式 1</item>
+        <item>样式 2</item>
+        <item>样式 3</item>
+        <item>样式 4</item>
+    </string-array>
+    <!--<string-array name="panel_bg_color_value">
+        <item>#DCDCDC</item>
+        <item>#A9FFD9</item>
+        <item>#BAECFF</item>
+    </string-array>-->
+    <string-array name="panel_bg_color_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="grade_list_index">
+        <item>No.1</item>
+        <item>No.2</item>
+        <item>No.3</item>
+        <item>No.4</item>
+        <item>No.5</item>
+        <item>No.6</item>
+        <item>No.7</item>
+        <item>No.8</item>
+        <item>No.9</item>
+        <item>No.10</item>
+    </string-array>
+
+    <string-array name="system_language">
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="system_language_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="black_pieces">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+        <item>@drawable/b9</item>
+        <item>@drawable/b10</item>
+        <item>@drawable/b11</item>
+        <item>@drawable/b12</item>
+        <item>@drawable/b13</item>
+        <item>@drawable/b14</item>
+        <item>@drawable/b15</item>
+        <item>@drawable/b16</item>
+    </string-array>
+    <string-array name="white_pieces">
+        <item>@drawable/w1</item>
+        <item>@drawable/w2</item>
+        <item>@drawable/w3</item>
+        <item>@drawable/w4</item>
+        <item>@drawable/w5</item>
+        <item>@drawable/w6</item>
+        <item>@drawable/w7</item>
+        <item>@drawable/w8</item>
+        <item>@drawable/w9</item>
+        <item>@drawable/w10</item>
+        <item>@drawable/w11</item>
+        <item>@drawable/w12</item>
+        <item>@drawable/w13</item>
+        <item>@drawable/w14</item>
+        <item>@drawable/w15</item>
+        <item>@drawable/w16</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="headBackground" format="reference|color"/>
+    <attr name="alertDialogBackground" format="reference|color"/>
+    <attr name="myButton_startColor" format="reference|color"/>
+    <attr name="myButton_endColor" format="reference|color"/>
+    <attr name="myButton_border" format="reference|color"/>
+    <attr name="myButton_border_dark" format="reference|color"/>
+    <attr name="textColor_light" format="reference|color"/>
+    <attr name="textColor_dark" format="reference|color"/>
+    <attr name="textColor_lightDark" format="reference|color"/>
+    <attr name="textColor_darkLight" format="reference|color"/>
+</resources>

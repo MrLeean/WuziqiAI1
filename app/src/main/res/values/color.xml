@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pref_bg">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <color name="night_pref_bg">#2B2B2B</color>
+    <color name="night_text_color">#CCCCCC</color>
+    <color name="night_chessboard_bg">#DE8D47</color>
+    <color name="textColor_light">#FFFFFF</color>
+    <color name="divider">#757575</color>
+    <color name="textColor_darkLight">#dfdfdf</color>
+    <color name="textColor_dark">#3F3C3C</color>
+    <color name="textColor_lightDark">#313131</color>
+
+    <!--theme 1-->
+    <color name="theme1_main_bg">#DFDFDC</color>
+    <color name="theme1_top_bg">#3fadea</color>
+    <color name="theme1_head_bg">#DFDFDC</color>
+    <color name="theme1_button_bg">#FFFFFF</color>
+    <color name="theme1_button_bg_dark">#DDDDDD</color>
+    <color name="theme1_button_border">#2273A1</color>
+    <color name="theme1_accent">#047d8b</color>
+    <color name="theme1_textColor_btn">#073853</color>
+    <color name="theme1_navbar_bg">#2A9AD9</color>
+    <color name="theme1_white">#FAFAFA</color>
+    <color name="theme1_grey">#858585</color>
+
+    <!--theme 2-->
+    <color name="theme2_main_bg">#DFDFDC</color>
+    <color name="theme2_top_bg">#10c7b8</color>>
+    <color name="theme2_head_bg">#DFDFDC</color>
+    <color name="theme2_button_bg">#FFFFFF</color>
+    <color name="theme2_button_bg_dark">#DDDDDD</color>
+    <color name="theme2_button_border">#009362</color>
+    <color name="theme2_accent">#0c8145</color>
+    <color name="theme2_textColor_btn">#0a4934</color>
+    <color name="theme2_navbar_bg">#09B0A2</color>
+    <color name="theme2_white">#FAFAFA</color>
+    <color name="theme2_grey">#858585</color>
+
+    <!--theme 3-->
+    <color name="theme3_main_bg">#DFDFDC</color>
+    <color name="theme3_top_bg">#f7585d</color>
+    <color name="theme3_head_bg">#DFDFDC</color>
+    <color name="theme3_button_bg">#FFFFFF</color>
+    <color name="theme3_button_bg_dark">#DDDDDD</color>
+    <color name="theme3_button_border">#C84300</color>
+    <color name="theme3_accent">#f50057</color>
+    <color name="theme3_textColor_btn">#4d061f</color>
+    <color name="theme3_navbar_bg">#F06640</color>
+    <color name="theme3_white">#FAFAFA</color>
+    <color name="theme3_grey">#858585</color>
+
+    <!--theme 4-->
+    <color name="theme4_main_bg">#DFDFDC</color>
+    <color name="theme4_top_bg">#474747</color>
+    <color name="theme4_head_bg">#DFDFDC</color>
+    <color name="theme4_button_bg">#FFFFFF</color>
+    <color name="theme4_button_bg_dark">#DDDDDD</color>
+    <color name="theme4_button_border">#1A1A1A</color>
+    <color name="theme4_accent">#1e6f8f</color>
+    <color name="theme4_textColor_btn">#353232</color>
+    <color name="theme4_navbar_bg">#474747</color>
+    <color name="theme4_white">#FAFAFA</color>
+    <color name="theme4_grey">#858585</color>
+
+    <!--Night theme-->
+    <color name="night_main_bg">#a4a4a1</color>
+    <color name="night_top_bg">#000000</color>
+    <color name="night_head_bg">#cfcfcf</color>
+    <color name="night_button_bg">#cfcfcf</color>
+    <color name="night_button_bg_dark">#c6c6c6</color>
+    <color name="night_button_border">#ffb728</color>
+    <color name="night_accent">#ff9a26</color>
+    <color name="night_textColor_btn">#3d3d3d</color>
+    <color name="night_navbar_bg">#474747</color>
+    <color name="night_white">#FAFAFA</color>
+    <color name="night_grey">#858585</color>
+</resources>

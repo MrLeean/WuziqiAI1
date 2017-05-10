@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_retry"
+            android:orderInCategory="100"
+            android:title="再玩一次"/>
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_setting"
+            android:orderInCategory="100"
+            android:title="软件设置"/>
+    </group>
+</menu>

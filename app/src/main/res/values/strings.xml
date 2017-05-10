@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    //preference
+    <string name="app_name">五子棋</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="preference_pers_info">userInfo</string>
+    <string name="preference_user_name">userName</string>
+    <string name="preference_line_num">lineNum</string>
+    <string name="preference_usability_setting">usability</string>
+    <string name="preference_night_mode">nightMode</string>
+    <string name="preference_font_size">fontSize</string>
+    <string name="preference_bg">background</string>
+    <string name="preference_language">language</string>
+    <string name="preference_clear_cusfile">clearCusfile</string>
+    <string name="preference_theme">appTheme</string>
+
+
+    <string name="gaming_step">步数：</string>
+    <string name="gaming_time">用时：</string>
+    <string name="stepValue">0</string>
+    <string name="grade_list">得分榜</string>
+    <string name="grade_list_Lbtn">返回</string>
+    <string name="grade_list_Rbtn">确认</string>
+    <string name="wq_btn_replay">重新开始</string>
+    <string name="wq_btn_return">返回主页</string>
+    <string name="share">成绩分享</string>
+
+    //AlertWindow
+    <string name="alertOverTitle">游戏结束</string>
+    <string name="alertTitle">警告</string>
+    <string name="alertMessage">您点击了返回键，是否退出游戏并返回主界面？</string>
+    <string name="alertMessage_1">您是否要重新开始游戏？</string>
+    <string name="alertQuit">确认</string>
+    <string name="alertCancel">取消</string>
+    <string name="alertRetry">再来一局</string>
+    <string name="alertShare">分享成绩</string>
+    <string name="alertWinnerUser">白方获胜！</string>
+    <string name="alertWinnerAI">黑方获胜!</string>
+    <string name="Time">游戏用时:</string>
+    <string name="alertMIAO">秒</string>
+    <string name="alertStep">所走步数：</string>
+    <string name="alertBUSHU">步</string>
+    <string name="alertBRILLIANT">五子棋大师！</string>
+    <string name="alertWONDERFUL">专家级别！</string>
+    <string name="alertGOOD">不错哦！</string>
+    <string name="alertENCOURAGE">再接再厉哦~</string>
+
+
+    <string name="pref_title_userInfo">用户信息</string>
+    <string name="pref_title_userName">昵称</string>
+    <string name="pref_sum_userName">请输入您的昵称</string>
+    <string name="pref_deVel_userName">玩家1</string>
+    <string name="pref_title_gridDensity">棋盘密度</string>
+    <string name="pref_sum_gridDensity">自定义棋盘网格数， 默认为10行</string>
+    <string name="pref_title_Accessibility">无障碍化设置</string>
+    <string name="pref_title_nightMode">夜间模式</string>
+    <string name="pref_sum_nightModeOn">夜间模式已开启</string>
+    <string name="pref_sum_nightModeOff">夜间模式已关闭</string>
+    <string name="pref_deVel_nightMode">false</string>
+    <string name="pref_title_textSize">字体大小</string>
+    <string name="pref_sum_textSize">请选择合适的字体大小</string>
+    <string name="pref_title_boardStyle">棋盘样式</string>
+    <string name="pref_sum_boardStyle">请选择合适的棋盘样式</string>
+    <string name="pref_title_language">多语言选择</string>
+    <string name="pref_sum_language">请选择合适的语言</string>
+    <string name="pref_title_clearcache">清除历史记录</string>
+    <string name="pref_sum_clearcache">点击清除所有保存的截图文件</string>
+    <string name="pref_title_theme">切换主题</string>
+    <string name="pref_sum_theme">选择更多主题</string>
+
+
+    <string name="wel_title">欢乐五子棋</string>
+    <string name="wel_btn_play">单人游戏</string>
+    <string name="wel_btn_play_2">双人游戏</string>
+    <string name="wel_btn_score">得分榜</string>
+    <string name="wel_btn_setting">更多设置</string>
+    <string name="wel_btn_history">历史记录</string>
+    <string name="score_title">【 得分纪录 】</string>
+    <string name="score_reset">重置</string>
+    <string name="score_share">分享成绩</string>
+    <string name="score_return">返回</string>
+    <string name="imgBrow_title">【 历史对战记录 】</string>
+    <string name="imgBrow_prev">上一张</string>
+    <string name="imgBrow_return">退出</string>
+    <string name="imgBrow_next">下一张</string>
+    <string name="panel_time">游戏用时：</string>
+    <string name="panel_step">出棋步数：</string>
+    <string name="wel_quit_dialog_title">警告</string>
+    <string name="wel_quit_dialog_message">您是否要退出游戏？</string>
+
+
+    <string name="preference_bg_picker">background_picker</string>
+    <string name="font_size_sample_12">12sp 大小的文字</string>
+    <string name="font_size_sample_14">14sp 大小的文字</string>
+    <string name="font_size_sample_16">16sp 大小的文字</string>
+    <string name="font_size_sample_18">18sp 大小的文字</string>
+    <string name="font_size_sample_20">20sp 大小的文字</string>
+    <string name="font_size_sample_22">22sp 大小的文字</string>
+    <string name="font_size_sample_24">24sp 大小的文字</string>
+    <string name="font_size_sample_26">26sp 大小的文字</string>
+    <string name="font_size_sample_28">28sp 大小的文字</string>
+    <string name="font_size_sample_30">30sp 大小的文字</string>
+    <string name="font_size_sample_indicator">字体大小示意图</string>
+    <string name="preference_font_size_sample">font_size_sample</string>
+    <string name="pref_title_fontSizeSample">字体大小预览</string>
+    <string name="pref_sum_fontSizeSample">预览不同设定的字体大小</string>
+
+    <!--图片浏览-->
+    <string name="gallery_return">退出</string>
+    <string name="firsthand_indicator">黑棋先手</string>
+    <string name="multi_winTimes">黑胜: </string>
+    <string name="multi_failTimes">白胜:</string>
+
+
+</resources>

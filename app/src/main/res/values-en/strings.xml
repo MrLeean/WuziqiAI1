@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    //preference
+    <string name="app_name">Gobang</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="preference_pers_info">userInfo</string>
+    <string name="preference_user_name">userName</string>
+    <string name="preference_line_num">lineNum</string>
+    <string name="preference_usability_setting">usability</string>
+    <string name="preference_night_mode">nightMode</string>
+    <string name="preference_font_size">fontSize</string>
+    <string name="preference_bg">background</string>
+    <string name="preference_language">language</string>
+    <string name="preference_clear_cusfile">clearCusfile</string>
+    <string name="preference_theme">appTheme</string>
+
+
+    <string name="gaming_step">Step：</string>
+    <string name="gaming_time">Time：</string>
+    <string name="stepValue">0</string>
+    <string name="grade_list">Score List</string>
+    <string name="grade_list_Lbtn">Return</string>
+    <string name="grade_list_Rbtn">Confirm</string>
+    <string name="wq_btn_replay">Replay</string>
+    <string name="wq_btn_return">Home</string>
+    <string name="share">Share</string>
+
+    //AlertWindow
+    <string name="alertOverTitle">Game is over!</string>
+    <string name="alertTitle">Warning!</string>
+    <string name="alertMessage">Do your really want to quit?</string>
+    <string name="alertMessage_1">Start a new game?</string>
+    <string name="alertQuit">Yes</string>
+    <string name="alertCancel">No</string>
+    <string name="alertRetry">Replay</string>
+    <string name="alertShare">Share</string>
+    <string name="alertWinnerUser">White wins!</string>
+    <string name="alertWinnerAI">Black wins!</string>
+    <string name="Time">Time: </string>
+    <string name="alertMIAO"> s</string>
+    <string name="alertStep">Step: </string>
+    <string name="alertBUSHU"> </string>
+    <string name="alertBRILLIANT"> Master!</string>
+    <string name="alertWONDERFUL"> Expert!</string>
+    <string name="alertGOOD"> Pretty goof!</string>
+    <string name="alertENCOURAGE"> Keep practicing!</string>
+
+
+    <string name="pref_title_userInfo">Basic info</string>
+    <string name="pref_title_userName">Nickname</string>
+    <string name="pref_sum_userName">Input your nickname</string>
+    <string name="pref_deVel_userName">Player 1</string>
+    <string name="pref_title_gridDensity">Grid</string>
+    <string name="pref_sum_gridDensity">Input grid number (10 lines as default)</string>
+    <string name="pref_title_Accessibility">Accessibility</string>
+    <string name="pref_title_nightMode">Night Mode</string>
+    <string name="pref_sum_nightModeOn">Night mode is on</string>
+    <string name="pref_sum_nightModeOff">Night mode is off</string>
+    <string name="pref_deVel_nightMode">false</string>
+    <string name="pref_title_textSize">Text size</string>
+    <string name="pref_sum_textSize">Choose proper size of text</string>
+    <string name="pref_title_boardStyle">Background style</string>
+    <string name="pref_sum_boardStyle">Background style of chessboard</string>
+    <string name="pref_title_language">Language</string>
+    <string name="pref_sum_language">Choose different language</string>
+    <string name="pref_title_clearcache">Clear history</string>
+    <string name="pref_sum_clearcache">Clear all screenshot</string>
+    <string name="pref_title_theme">APP themes</string>
+    <string name="pref_sum_theme">Switch themes</string>
+
+
+    <string name="wel_title">GoBang</string>
+    <string name="wel_btn_play">Single mode</string>
+    <string name="wel_btn_play_2">Multi mode</string>
+    <string name="wel_btn_score">Score list</string>
+    <string name="wel_btn_setting">Settings</string>
+    <string name="wel_btn_history">History</string>
+    <string name="score_title">【Score List】</string>
+    <string name="score_reset">Reset</string>
+    <string name="score_share">Share</string>
+    <string name="score_return">Return</string>
+    <string name="imgBrow_title">【Galary】</string>
+    <string name="imgBrow_prev">Prev</string>
+    <string name="imgBrow_return">Quit</string>
+    <string name="imgBrow_next">Next</string>
+    <string name="wel_quit_dialog_title">Warning</string>
+    <string name="wel_quit_dialog_message">Are you going to quit?</string>
+
+    <string name="preference_bg_picker">background_picker</string>
+    <string name="font_size_sample_12">Text in 12sp</string>
+    <string name="font_size_sample_14">Text in 14sp</string>
+    <string name="font_size_sample_16">Text in 16sp</string>
+    <string name="font_size_sample_18">Text in 18sp</string>
+    <string name="font_size_sample_20">Text in 20sp</string>
+    <string name="font_size_sample_22">Text in 22sp</string>
+    <string name="font_size_sample_24">Text in 24sp</string>
+    <string name="font_size_sample_26">Text in 26sp</string>
+    <string name="font_size_sample_28">Text in 28sp</string>
+    <string name="font_size_sample_30">Text in 30sp</string>
+    <string name="font_size_sample_indicator">Font size preview</string>
+    <string name="preference_font_size_sample">font_size_sample</string>
+    <string name="pref_title_fontSizeSample">Font size preveiw</string>
+    <string name="pref_sum_fontSizeSample">Here is a preview of font in different size.</string>
+
+    <!--图片浏览界面-->
+    <string name="gallery_return">Return</string>
+    <string name="firsthand_indicator">Black First</string>
+    <string name="multi_winTimes">Black win: </string>
+    <string name="multi_failTimes">White win:</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--点击状态下-->
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="3dip" />
+            <stroke android:width="2dip" android:color="?attr/myButton_border_dark" />
+            <gradient android:angle="-90" android:startColor="?attr/myButton_endColor" android:endColor="?attr/myButton_startColor"  />
+        </shape>
+    </item>
+    <!--获得焦点状态下-->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="3dip" />
+            <stroke android:width="2dip" android:color="?attr/myButton_border_dark" />
+            <solid android:color="?attr/myButton_startColor"/>
+        </shape>
+    </item>
+    <!--一般状态下-->
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="3dip" />
+            <stroke android:width="2dip" android:color="?attr/myButton_border" />
+            <gradient android:angle="-90" android:startColor="?attr/myButton_startColor" android:endColor="?attr/myButton_endColor" />
+        </shape>
+    </item>
+</selector>
